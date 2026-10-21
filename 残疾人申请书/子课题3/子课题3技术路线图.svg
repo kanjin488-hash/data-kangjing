@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1340" viewBox="0 0 1600 1340">
+  <defs>
+    <style>
+      text { font-family: 'Noto Sans CJK SC', 'Microsoft YaHei', sans-serif; fill: #20334b; }
+      .title { font-size: 42px; font-weight: 700; }
+      .subtitle { font-size: 25px; fill: #50647b; }
+      .stage { font-size: 27px; font-weight: 700; }
+      .body { font-size: 26px; }
+      .small { font-size: 22px; fill: #52657a; }
+      .top { fill: #e9f3fb; stroke: #95bad6; stroke-width: 2; }
+      .chain { fill: #f7fafc; stroke: #a9bfd0; stroke-width: 2; }
+      .result { fill: #fff8e9; stroke: #d6b977; stroke-width: 2; }
+      .line { fill: none; stroke: #6d8ea7; stroke-width: 3; marker-end: url(#arrow); }
+      .lineplain { fill: none; stroke: #6d8ea7; stroke-width: 3; }
+    </style>
+    <marker id="arrow" markerWidth="11" markerHeight="11" refX="9" refY="5.5" orient="auto"><path d="M1,1 L10,5.5 L1,10" fill="none" stroke="#6d8ea7" stroke-width="2"/></marker>
+  </defs>
+  <rect width="1600" height="1340" fill="#fff"/>
+  <text x="800" y="74" text-anchor="middle" class="title">残疾人康复服务可及性提升技术路线</text>
+  <text x="800" y="118" text-anchor="middle" class="subtitle">准备与锁定 → 三条证据链并行 → 综合判读 → 分类路径</text>
+
+  <!-- 准备阶段：借鉴子课题1的横向步骤布局 -->
+  <rect class="top" x="45" y="165" width="335" height="112" rx="17"/>
+  <rect class="top" x="435" y="165" width="335" height="112" rx="17"/>
+  <rect class="top" x="825" y="165" width="335" height="112" rx="17"/>
+  <rect class="top" x="1215" y="165" width="335" height="112" rx="17"/>
+  <text x="212" y="211" text-anchor="middle" class="stage">政策与制度基准</text>
+  <text x="212" y="250" text-anchor="middle" class="small">明确服务范围与判定口径</text>
+  <text x="602" y="211" text-anchor="middle" class="stage">选点与资料评估</text>
+  <text x="602" y="250" text-anchor="middle" class="small">核实抽样框、机构与路网</text>
+  <text x="992" y="211" text-anchor="middle" class="stage">伦理、预试与德尔菲</text>
+  <text x="992" y="250" text-anchor="middle" class="small">前期两轮形成候选框架</text>
+  <text x="1382" y="211" text-anchor="middle" class="stage">方案与工具锁定</text>
+  <text x="1382" y="250" text-anchor="middle" class="small">分层抽样、题项及容量口径</text>
+  <path class="line" d="M382 221 H429"/><path class="line" d="M772 221 H819"/><path class="line" d="M1162 221 H1209"/>
+  <path class="lineplain" d="M1382 278 V316 H800"/>
+  <path class="lineplain" d="M800 316 H278 V340"/><path class="lineplain" d="M800 316 V340"/><path class="lineplain" d="M800 316 H1322 V340"/>
+
+  <!-- 三条并行证据链 -->
+  <rect class="chain" x="45" y="341" width="465" height="595" rx="20"/>
+  <rect class="chain" x="568" y="341" width="465" height="595" rx="20"/>
+  <rect class="chain" x="1091" y="341" width="465" height="595" rx="20"/>
+  <rect x="45" y="341" width="465" height="73" rx="20" fill="#dcebf6"/>
+  <rect x="568" y="341" width="465" height="73" rx="20" fill="#dcebf6"/>
+  <rect x="1091" y="341" width="465" height="73" rx="20" fill="#dcebf6"/>
+  <text x="278" y="389" text-anchor="middle" class="stage">空间测算链</text>
+  <text x="800" y="389" text-anchor="middle" class="stage">需求调查链</text>
+  <text x="1323" y="389" text-anchor="middle" class="stage">机构与情境核查链</text>
+
+  <text x="278" y="477" text-anchor="middle" class="body">机构容量、需求人口、路网时间</text>
+  <path class="line" d="M278 500 V548"/>
+  <text x="278" y="590" text-anchor="middle" class="body">训练、医疗分别运行2SFCA</text>
+  <path class="line" d="M278 613 V661"/>
+  <text x="278" y="704" text-anchor="middle" class="body">潜在空间可及性及敏感性</text>
+  <path class="line" d="M278 727 V775"/>
+  <text x="278" y="816" text-anchor="middle" class="small">容量数据不可得时降级描述</text>
+  <text x="278" y="856" text-anchor="middle" class="small">并标注边界与截断范围</text>
+
+  <text x="800" y="477" text-anchor="middle" class="body">4县48个PSU两阶段抽样</text>
+  <text x="800" y="517" text-anchor="middle" class="small">成人与儿童分层、分别报告</text>
+  <path class="line" d="M800 538 V580"/>
+  <text x="800" y="621" text-anchor="middle" class="body">先判服务需求，再判获得结局</text>
+  <path class="line" d="M800 644 V692"/>
+  <text x="800" y="732" text-anchor="middle" class="body">复合主要结局与分类结局</text>
+  <text x="800" y="772" text-anchor="middle" class="small">五维剖面与未获得原因</text>
+  <text x="800" y="856" text-anchor="middle" class="small">依复杂抽样设计报告精度</text>
+
+  <text x="1323" y="477" text-anchor="middle" class="body">机构核查与定向访谈</text>
+  <path class="line" d="M1323 500 V548"/>
+  <text x="1323" y="590" text-anchor="middle" class="body">障碍链与辅具适配五环</text>
+  <path class="line" d="M1323 613 V661"/>
+  <text x="1323" y="703" text-anchor="middle" class="body">流动、远程服务条件核查</text>
+  <text x="1323" y="747" text-anchor="middle" class="small">资料充分时独立情景分析</text>
+  <text x="1323" y="856" text-anchor="middle" class="small">记录服务模式及实施条件</text>
+
+  <!-- 并置分析和成果 -->
+  <path class="lineplain" d="M278 936 V971 H800"/>
+  <path class="lineplain" d="M1323 936 V971 H800"/>
+  <path class="line" d="M800 936 V1000"/>
+  <rect class="result" x="165" y="1003" width="1270" height="112" rx="18"/>
+  <text x="800" y="1051" text-anchor="middle" class="stage">空间结果 × 实际经历 × 机构与访谈证据</text>
+  <text x="800" y="1091" text-anchor="middle" class="body">并置识别服务缺口、障碍机制与适用情境</text>
+  <path class="line" d="M800 1117 V1150"/>
+  <rect class="result" x="165" y="1153" width="1270" height="104" rx="18"/>
+  <text x="800" y="1198" text-anchor="middle" class="stage">证据—障碍—路径对应表 → 田野后专家论证</text>
+  <text x="800" y="1239" text-anchor="middle" class="body">分旗县类型路径组合表、研究报告与政策建议</text>
+  <text x="800" y="1305" text-anchor="middle" class="small">边界：不作全区外推、因果推断或服务模式合成排名；证据不足的路径不列为建议。</text>
+</svg>
