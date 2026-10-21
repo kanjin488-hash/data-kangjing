@@ -2,11 +2,10 @@
   <defs>
     <style>
       text { font-family: 'Noto Sans CJK SC', 'Microsoft YaHei', sans-serif; fill: #20334b; }
-      .title { font-size: 42px; font-weight: 700; }
-      .subtitle { font-size: 25px; fill: #50647b; }
-      .stage { font-size: 27px; font-weight: 700; }
-      .body { font-size: 26px; }
-      .small { font-size: 22px; fill: #52657a; }
+      .subtitle { font-size: 26px; fill: #50647b; }
+      .stage { font-size: 28px; font-weight: 700; }
+      .body { font-size: 27px; }
+      .small { font-size: 25px; fill: #52657a; }
       .top { fill: #e9f3fb; stroke: #95bad6; stroke-width: 2; }
       .chain { fill: #f7fafc; stroke: #a9bfd0; stroke-width: 2; }
       .result { fill: #fff8e9; stroke: #d6b977; stroke-width: 2; }
@@ -16,8 +15,7 @@
     <marker id="arrow" markerWidth="11" markerHeight="11" refX="9" refY="5.5" orient="auto"><path d="M1,1 L10,5.5 L1,10" fill="none" stroke="#6d8ea7" stroke-width="2"/></marker>
   </defs>
   <rect width="1600" height="1340" fill="#fff"/>
-  <text x="800" y="74" text-anchor="middle" class="title">残疾人康复服务可及性提升技术路线</text>
-  <text x="800" y="118" text-anchor="middle" class="subtitle">准备与锁定 → 三条证据链并行 → 综合判读 → 分类路径</text>
+  <text x="800" y="99" text-anchor="middle" class="subtitle">准备与锁定 → 三条证据链并行 → 综合判读 → 分类路径</text>
 
   <!-- 准备阶段：借鉴子课题1的横向步骤布局 -->
   <rect class="top" x="45" y="165" width="335" height="112" rx="17"/>
@@ -56,21 +54,22 @@
   <text x="278" y="816" text-anchor="middle" class="small">容量数据不可得时降级描述</text>
   <text x="278" y="856" text-anchor="middle" class="small">并标注边界与截断范围</text>
 
-  <text x="800" y="477" text-anchor="middle" class="body">4县48个PSU两阶段抽样</text>
-  <text x="800" y="517" text-anchor="middle" class="small">成人与儿童分层、分别报告</text>
+  <text x="800" y="477" text-anchor="middle" class="body">4个核心旗县、48个PSU</text>
+  <text x="800" y="517" text-anchor="middle" class="small">两阶段抽样；儿童与成人分别报告</text>
   <path class="line" d="M800 538 V580"/>
   <text x="800" y="621" text-anchor="middle" class="body">先判服务需求，再判获得结局</text>
   <path class="line" d="M800 644 V692"/>
-  <text x="800" y="732" text-anchor="middle" class="body">复合主要结局与分类结局</text>
+  <text x="800" y="732" text-anchor="middle" class="body">复合主要结局与类别特异结局</text>
   <text x="800" y="772" text-anchor="middle" class="small">五维剖面与未获得原因</text>
   <text x="800" y="856" text-anchor="middle" class="small">依复杂抽样设计报告精度</text>
 
-  <text x="1323" y="477" text-anchor="middle" class="body">机构核查与定向访谈</text>
-  <path class="line" d="M1323 500 V548"/>
-  <text x="1323" y="590" text-anchor="middle" class="body">障碍链与辅具适配五环</text>
-  <path class="line" d="M1323 613 V661"/>
-  <text x="1323" y="703" text-anchor="middle" class="body">流动、远程服务条件核查</text>
-  <text x="1323" y="747" text-anchor="middle" class="small">资料充分时独立情景分析</text>
+  <text x="1323" y="477" text-anchor="middle" class="body">核心4县＋补充2县机构核查</text>
+  <text x="1323" y="517" text-anchor="middle" class="small">补充县仅作机构与空间核查</text>
+  <path class="line" d="M1323 538 V568"/>
+  <text x="1323" y="610" text-anchor="middle" class="body">定向访谈还原障碍链</text>
+  <path class="line" d="M1323 633 V670"/>
+  <text x="1323" y="710" text-anchor="middle" class="body">辅具五环与流动、远程服务</text>
+  <text x="1323" y="750" text-anchor="middle" class="small">条件可核验时分别开展情景分析</text>
   <text x="1323" y="856" text-anchor="middle" class="small">记录服务模式及实施条件</text>
 
   <!-- 并置分析和成果 -->
